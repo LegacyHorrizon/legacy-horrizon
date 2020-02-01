@@ -1,0 +1,63 @@
+<DOCTYPE html>
+	<!DOCTYPE html>
+	<html>
+	<head>
+		
+		<title>Legacy Horrizon</title>
+		<link rel="stylesheet" type="text/css" href="css/Art.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	</head>
+	
+	<body class="Social">
+
+	
+			
+
+		
+	<div class="navbar">
+			
+			<a href="index.html">Home</a>
+			<a href="whoarewe.html">About Us</a>
+			<a href="login.html">Log In</a>
+			<a href="social.html">Social</a>
+	<div class="dropdown">
+ 			 <button class="dropbtn" onclick="myFunction()">The Forge 
+    			<i class="fa fa-caret-down"></i>
+  			</button>
+  			<div class="dropdown-content" id="myDropdown">
+  				<a href="">Raids</a>
+  				<a href="">Leaderboards</a>
+  				<a href="">Events</a>
+			</div>
+		</div>
+	</div>
+
+
+
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+</script>	
+
+		
+
+
+
+</body>
+	</html>
